@@ -1,0 +1,17 @@
+name: AdvancedBroadcast
+version: '${project.version}'
+main: me.chi2l3s.advancedbroadcast.AdvancedBroadcast
+api-version: '1.16'
+commands:
+  broadcast:
+    description: Отпраляет всем игрокам на сервере объявление
+    usage: /<command> [args...]
+    aliases:
+      - bc
+  advancedbrodcast:
+    description: Перезагрузка конфигурации
+    usage: /<command>
+    aliases:
+      - ab
+      - abc
+      - abroadcast
